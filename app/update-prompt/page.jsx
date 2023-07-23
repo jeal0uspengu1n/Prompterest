@@ -55,6 +55,7 @@ const UpdatePrompt = () => {
   return (
     <Form
       type='Edit'
+      type_continous='Updating...'
       post={post}
       setPost={setPost}
       submitting={submitting}

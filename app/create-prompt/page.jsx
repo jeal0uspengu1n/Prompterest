@@ -40,6 +40,7 @@ const CreatePrompt = () => {
   return (
     <Form
       type='Create'
+      type_continous='Creating...'
       post={post}
       setPost={setPost}
       submitting={submitting}
